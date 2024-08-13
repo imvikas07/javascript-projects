@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: monospace;
+    background: #247291; 
+    color: white;
+
+}
+
+.main-content-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Full viewport height */
+    text-align: center; /* Center the text */
+}
+
+#clock {
+    margin-top: 20px; /* Optional: Add some space between the heading and clock */
+    height: 50px;
+    width: 200px;
+    background: #eef2e2; 
+}
